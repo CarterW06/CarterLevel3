@@ -5,11 +5,11 @@ import java.awt.event.ActionListener;
 import java.net.*;
 import java.util.*;
 
-public class SantaList implements ActionListener{
+public class SantaList implements ActionListener {
 	public static void main(String args[]) {
 		new SantaList().generateGUI();
 	}
-	
+
 	JFrame jf = new JFrame();
 	JLabel jl = new JLabel();
 	ArrayList<JLabel> aljl = new ArrayList<JLabel>();
@@ -39,7 +39,7 @@ public class SantaList implements ActionListener{
 		}
 		return null;
 	}
-	
+
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		panel.remove(jl);
