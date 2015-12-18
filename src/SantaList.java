@@ -18,7 +18,8 @@ public class SantaList implements ActionListener {
 	private void generateGUI() {
 		aljl.add(loadImageFromTheInternet("http://www.selangortimes.com/images/user//img_1308.png"));
 		aljl.add(loadImageFromTheInternet("https://isocpp.org/files/img/tour.PNG"));
-		aljl.add(loadImageFromTheInternet("http://d3by36x8sj6cra.cloudfront.net/assets/images/book/large/9780/8153/9780815341307.jpg"));
+		aljl.add(loadImageFromTheInternet(
+				"http://d3by36x8sj6cra.cloudfront.net/assets/images/book/large/9780/8153/9780815341307.jpg"));
 		JButton jb = new JButton();
 		panel.add(jb);
 		panel.add(jl);
