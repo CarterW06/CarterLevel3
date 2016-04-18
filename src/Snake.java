@@ -50,6 +50,6 @@ class Plane {
 			}
 		}
 		int probOfDeath = (venomousSnakes * viscousness) / numberOfPassengers;
-		System.out.println("The probability of death is:\n" + probOfDeath + "%");
+		System.out.println("The probability of death is:\n" + probOfDeath / 1000000 + "%");
 	}
 }

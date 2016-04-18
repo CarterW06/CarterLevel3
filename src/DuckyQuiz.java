@@ -6,9 +6,14 @@ public class DuckyQuiz {
 		ArrayList<Duck> alDuck = new ArrayList<Duck>();
 		alDuck.add(new Duck("Daffy"));
 		alDuck.get(0).feed();
-		for(Duck d : alDuck) {
+		for (Duck d : alDuck) {
 			d.feed();
 		}
 	}
 
+}
+
+class Duck {
+	Duck(String s) {}
+	void feed() {}
 }
