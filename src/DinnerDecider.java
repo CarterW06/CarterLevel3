@@ -8,7 +8,7 @@ public class DinnerDecider {
 		arraylist.add("Tofu");
 		arraylist.add("Pizza");
 		
-		JOptionPane.showMessageDialog(null, "What will i have for dinner?");
+		JOptionPane.showMessageDialog(null, "What will I have for dinner?");
 		JOptionPane.showMessageDialog(null, "You should eat this:\n" + arraylist.get(new Random().nextInt(arraylist.size())));
 	}
 }
